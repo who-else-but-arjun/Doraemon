@@ -1,7 +1,3 @@
-Here's a template for your `README.md` file:
-
----
-
 # Face Enhancement Pipeline
 
 This repository contains a comprehensive pipeline for face enhancement, including face extraction, SRCNN-based super-resolution, and GAN-based deblurring. The project is structured to handle face images, enhance their resolution, and remove any blur, resulting in high-quality outputs.
