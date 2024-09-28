@@ -56,7 +56,7 @@ The pipeline is outlined in the `pipeline.ipynb` Jupyter notebook, which walks t
 
 1. **Face Extraction**: Using `faceCrop.py`, it extracts faces from the input images.
 2. **Super-Resolution with SRCNN**: Using `SRCNN.py`, it applies the SRCNN model trained on `generator.h5` weights to enhance the image resolution.
-3. **Deblurring**: Using `DeblurGANv2.py`, it removes any blur from the SRCNN output using a pre-trained GAN model, with layers defined in `layers_util.py`.
+3. **Deblurring**: Using `DeblurGANv2.py`, it removes any blur from the SRCNN output using a pre-trained GAN model, with layers defined in `layer_util.py`.
 
 ## Files Description
 
@@ -64,7 +64,7 @@ The pipeline is outlined in the `pipeline.ipynb` Jupyter notebook, which walks t
 - **`SRCNN.py`**: Implements the SRCNN model for super-resolution, loading pre-trained weights from `generator.h5`.
 - **`faceCrop.py`**: Contains the Haar Cascade classifier logic for face detection and cropping.
 - **`DeblurGANv2.py`**: Implements the GAN model for deblurring images, loading weights from `deblur_generator.h5`.
-- **`layers_util.py`**: Contains utility functions, including ResNet blocks necessary for the deblurring model.
+- **`layer_util.py`**: Contains utility functions, including ResNet blocks necessary for the deblurring model.
 
 ## How to Run
 
