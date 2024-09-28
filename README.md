@@ -31,7 +31,6 @@ The project requires the following dependencies:
 - scikit-image
 - Matplotlib
 
-You can install all dependencies using the following command:
 
 ## Setup
 
